@@ -22,9 +22,12 @@ Please make sure you have the following requirements installed:
 * Install Sitecore 9.1.0 (rev.001564) [Sitecore Experience Platform 9.1](https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Initial_Release.aspx)
 * Install Sitecore Experience Accelerator 1.8 (rev. 181112) [Sitecore Experience Accelerator 1.8](https://dev.sitecore.net/Downloads/Sitecore_Experience_Accelerator/18/Sitecore_Experience_Accelerator_180.aspx) 
 * Install the package with Control Panel wizard (Control Panel -> Install a package)
+* Install module on desired websites
+
+More details on [Installation Guide](https://github.com/Sitecore-Hackathon/2019-Team-Noesis/documentation/Installation Guide.md)
 
 ## Configuration
-Everything should be included in the provided [package](https://github.com/Sitecore-Hackathon/2019-Team-Noesis) and steps above
+Everything should be included in the provided [package](https://github.com/Sitecore-Hackathon/2019-Team-Noesis/documentation/) and steps above
 
 ## Usage
 * Navigate to any page
