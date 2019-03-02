@@ -24,7 +24,7 @@ Please make sure you have the following requirements installed:
 * Install the package with Control Panel wizard (Control Panel -> Install a package)
 * Install module on desired websites
 
-More details on [Installation Guide](https://github.com/Sitecore-Hackathon/2019-Team-Noesis/documentation/Installation Guide.md)
+More details on [Installation Guide](https://github.com/Sitecore-Hackathon/2019-Team-Noesis/documentation/Installation_Guide.md)
 
 ## Configuration
 Everything should be included in the provided [package](https://github.com/Sitecore-Hackathon/2019-Team-Noesis/documentation/) and steps above
