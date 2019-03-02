@@ -11,6 +11,8 @@ Page Section Module for SXA is a module that will allow marketers and content ed
 ## What problem does it solve
 We have identified when connecting with marketeers and content editors that most of them want to follow a specific layout pattern when adding content to pages. So far the components available using Sitecore Experience Editor and SXA don’t allow as much customization as they often require. Team Noesis Sitecore SXA – Page Section Module, focuses on drag n drop components normalization while being able to customize. Finally, Page Section Module is useful as a data collector and decision support though it’s goal setting feature.
 
+![Quick Demo](documentation/images/2019-03-02_19-56-24.gif?raw=true "Quick Demo")
+
 ## Pre-requisites
 Please make sure you have the following requirements installed:
 * Sitecore 9.1.0 (rev.001564)
