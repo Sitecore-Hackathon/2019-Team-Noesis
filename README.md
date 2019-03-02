@@ -27,7 +27,7 @@ Please make sure you have the following requirements installed:
 More details on [Installation Guide](https://github.com/Sitecore-Hackathon/2019-Team-Noesis/documentation/Installation_Guide.md)
 
 ## Configuration
-Everything should be included in the provided [package](https://github.com/Sitecore-Hackathon/2019-Team-Noesis/documentation/) and steps above
+Everything should be included in the provided [package]("sc.package/SXA Page Section Module-1.0.0.zip") and steps above
 
 ## Usage
 * Navigate to any page
