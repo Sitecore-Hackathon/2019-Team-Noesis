@@ -1,5 +1,5 @@
-#Documentation
-##Sitecore SXA - Page Section Module
+# Documentation
+## Sitecore SXA - Page Section Module
 
 ## Summary
 **Category**: Best extension of the editing experience for SXA in Experience Editor
