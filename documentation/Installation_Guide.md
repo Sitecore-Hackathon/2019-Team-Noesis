@@ -6,13 +6,26 @@
 
 ## Installation
 Please follow this instructions to install this module:
-1-Upload and install the package
+
+## 1-Upload the package
 
 ![Step1](images/step1.PNG?raw=true"step1")
 
+## 2-Install the package 
 
-1.Sitecore package - Page Section Module [package](https://github.com/Sitecore-Hackathon/2019-Team-Noesis)
-* Use the Sitecore Installation Wizard to upload the package and install the module.
+![Step2](images/step2.PNG?raw=true"step2")
 
-2.Publish Site
-* Run a smart publish of the site
+## 3-Restart Sitecore client 
+
+![Step3](images/step3.PNG?raw=true"step3")
+
+## 4-Go to Content Editor, right click on the SXA Site and select under the "Scripts" option, "Add Site Module"
+
+![Step4](images/step4.PNG?raw=true"step4")
+
+## 5-Select Module "Noesis Team Page Structure"
+
+![Step5](images/step5.PNG?raw=true"step5")
+
+
+
