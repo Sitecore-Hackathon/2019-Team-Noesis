@@ -1,0 +1,49 @@
+﻿@model Noesis.Feature.PageStructure.Models.PageSectionViewModel
+
+@{
+    var inlineStyle = string.Empty;
+
+    if (Model.HasImage)
+    {
+        inlineStyle = string.Format("background-image: url('{0}');", Model.BackgroundImage.Path);
+    }
+    else if (Model.HasBackgroundColor)
+    {
+        inlineStyle = string.Format("background-color:{0};", Model.BackgroundColor);
+    }
+}
+
+<link href="~/css/styles.css" rel="stylesheet" />
+
+<div id="@Model.Id" @Html.Raw(Model.RenderingCssClass) style="@Html.Raw(inlineStyle)">
+    <div class="bg-overlay"></div>
+
+    @if (Model.HasBackgroundVideo)
+    {
+        <video playsinline="playsinline" @(Model.Autoplay ? "autoplay='autoplay'" : "") muted="muted" loop="loop">
+            <source src="@Model.BackgroundVideoPath" type="video/mp4">
+        </video>
+
+        if (!Model.Autoplay)
+        {
+            @:<button class="play-video" onclick="playVideo(this);">Play</button>
+        }
+    }
+
+    <div class="container h-100">
+        @Html.Sitecore().DynamicPlaceholder("container")
+    </div>
+</div>
+
+
+@if (Model.GoalId != Guid.Empty)
+{
+    <script src="~/scripts/in-view.min.js"></script>
+    <script src="~/scripts/script.js"></script>
+
+    <script>
+        inView("#@Model.Id").once("enter", el => {
+            registerGoal("@Model.GoalId");
+        });
+    </script>
+}

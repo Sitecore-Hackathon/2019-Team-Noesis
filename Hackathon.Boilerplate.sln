@@ -29,14 +29,51 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{D27C83
 		documentation\images\hackathon.png = documentation\images\hackathon.png
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PageStructure", "PageStructure", "{9FBA3412-28C8-4E26-8601-2768EBC20FE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noesis.Feature.PageStructure", "src\Feature\PageStructure\code\Noesis.Feature.PageStructure.csproj", "{707765C8-F80F-45D6-86D9-38091EEC50BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SitecoreExtensions", "SitecoreExtensions", "{1348B32D-7426-4B3E-A0C4-8BCFB5C7F067}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noesis.Foundation.SitecoreExtensions", "src\Foundation\SitecoreExtensions\code\Noesis.Foundation.SitecoreExtensions.csproj", "{FE4AB5C6-A809-44C0-8DAB-A5CE6DA78C02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contacts", "Contacts", "{D3DFF6FF-4B19-4B38-9A1D-6109680EA8B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noesis.Foundation.Contacts", "src\Foundation\Contacts\code\Noesis.Foundation.Contacts.csproj", "{3E96746E-534B-4D59-80CB-7584F36A6D74}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{707765C8-F80F-45D6-86D9-38091EEC50BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{707765C8-F80F-45D6-86D9-38091EEC50BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{707765C8-F80F-45D6-86D9-38091EEC50BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{707765C8-F80F-45D6-86D9-38091EEC50BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE4AB5C6-A809-44C0-8DAB-A5CE6DA78C02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE4AB5C6-A809-44C0-8DAB-A5CE6DA78C02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE4AB5C6-A809-44C0-8DAB-A5CE6DA78C02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE4AB5C6-A809-44C0-8DAB-A5CE6DA78C02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E96746E-534B-4D59-80CB-7584F36A6D74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E96746E-534B-4D59-80CB-7584F36A6D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E96746E-534B-4D59-80CB-7584F36A6D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E96746E-534B-4D59-80CB-7584F36A6D74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D27C83D2-2EAF-4E44-A1ED-2B3C2EBB5854} = {DAFED8F5-6CBD-4384-AAD6-DC3BCCF24911}
+		{9FBA3412-28C8-4E26-8601-2768EBC20FE6} = {17DD5718-6E13-4F2C-9738-B410396D4552}
+		{707765C8-F80F-45D6-86D9-38091EEC50BA} = {9FBA3412-28C8-4E26-8601-2768EBC20FE6}
+		{1348B32D-7426-4B3E-A0C4-8BCFB5C7F067} = {4FDA1DCD-D33E-447E-91C1-F4AE818E2CF0}
+		{FE4AB5C6-A809-44C0-8DAB-A5CE6DA78C02} = {1348B32D-7426-4B3E-A0C4-8BCFB5C7F067}
+		{D3DFF6FF-4B19-4B38-9A1D-6109680EA8B4} = {4FDA1DCD-D33E-447E-91C1-F4AE818E2CF0}
+		{3E96746E-534B-4D59-80CB-7584F36A6D74} = {D3DFF6FF-4B19-4B38-9A1D-6109680EA8B4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
 		SolutionGuid = {311DA37D-528B-43B2-A99B-E7253F841D46}
 	EndGlobalSection
 EndGlobal

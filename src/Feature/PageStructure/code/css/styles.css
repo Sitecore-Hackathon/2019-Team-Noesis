@@ -1,0 +1,53 @@
+﻿.page-section {
+    position: relative;
+    min-height: 350px;
+    width: 100%;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .page-section video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: 0;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    .page-section .container {
+        position: relative;
+        z-index: 2;
+    }
+
+    .page-section.bg-overlay .bg-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        opacity: 0.3;
+        z-index: 1;
+    }
+
+    .page-section.fullscreen {
+        height: 100vh;
+    }
+
+    .page-section.parallax-background {
+        background-attachment: fixed;
+    }
+
+button.play-video {
+    z-index: 999;
+    position: absolute;
+}
