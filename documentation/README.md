@@ -33,6 +33,6 @@ Everything should be included in the provided [package](https://github.com/Sitec
 * To assign a goal, click on the "pencil" icon, find a droplink field with the name "Goal" and select a goal.
 * After that publish it
 
-##Video
+## Video
 
 Direct link to the video: https://www.youtube.com/watch?v=Il6vArc5sHQ
