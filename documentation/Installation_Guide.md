@@ -8,7 +8,7 @@
 Please follow this instructions to install this module:
 1-Upload and install the package
 
-![Step1](documentation/images/step1.PNG?raw=true"step1")
+![Step1](images/step1.PNG?raw=true"step1")
 
 
 1.Sitecore package - Page Section Module [package](https://github.com/Sitecore-Hackathon/2019-Team-Noesis)
