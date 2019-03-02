@@ -1,38 +1,43 @@
+# Documentation
+## Sitecore SXA - Page Section Module
+
+## Summary
+**Category**: Best extension of the editing experience for SXA in Experience Editor
+
+Page Section Module for SXA is a module that will allow marketers and content editor to easily add a section component to a page using experience editor that will enable marketeers to:
+* – set up page section parameters and properties in an easy/ graphic manner;
+* – trigger a goal on the section once it gets visible on the screen (through scrolling). Allowing marketeers to understand if a specific content in a section is being shown/reached or not.
+
+## What problem does it solve
+We have identified when connecting with marketeers and content editors that most of them want to follow a specific layout pattern when adding content to pages. So far the components available using Sitecore Experience Editor and SXA don’t allow as much customization as they often require. Team Noesis Sitecore SXA – Page Section Module, focuses on drag n drop components normalization while being able to customize. Finally, Page Section Module is useful as a data collector and decision support though it’s goal setting feature.
+
+## Pre-requisites
+Please make sure you have the following requirements installed:
+* Sitecore 9.1.0 (rev.001564)
+* Sitecore Experience Accelerator 1.8 (rev. 181112)
+
+## Installation
+* Install Sitecore 9.1.0 (rev.001564) [Sitecore Experience Platform 9.1](https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Initial_Release.aspx)
+* Install Sitecore Experience Accelerator 1.8 (rev. 181112) [Sitecore Experience Accelerator 1.8](https://dev.sitecore.net/Downloads/Sitecore_Experience_Accelerator/18/Sitecore_Experience_Accelerator_180.aspx) 
+* Install the package with Control Panel wizard (Control Panel -> Install a package)
+
+## Configuration
+Everything should be included in the provided [package](https://github.com/Sitecore-Hackathon/2019-Team-Noesis) and steps above
+
+## Usage
+* Navigate to any page
+* Open the Experience Editor, go to the toolbox, find the tab "PageStructure" and drag the "Page Section" component.
+* Create a new item and select it as datasource.
+* Click on the "pencil" icon to edit the the datasource fields.  
+* Click on the "bucket" icon to edit the component properties.
+* To assign a goal, click on the "pencil" icon, find a droplink field with the name "Goal" and select a goal.
+* After that publish it
+
+## Video
+
+Direct link to the video: https://www.youtube.com/watch?v=Il6vArc5sHQ
+
+
 ![Hackathon Logo](documentation/images/hackathon.png?raw=true "Hackathon Logo")
 
-# Submission Boilerplate
 
-Welcome to Sitecore Hackathon 2019.
-
-The Hackathon site can be found at http://www.sitecorehackathon.org/sitecore-hackathon-2019/
-
-The purpose of this repository is to provide a sample which shows how to structure the Hackathon submissions.
-
-
-## Entry Submission Requirements 
-
-All teams are required to submit the following as part of their entry submission on or before the end of the Hackathon on **Friday March 1st 2019 at 8PM EST**. The modules should be based on [Sitecore 9.1 (Initial Release)](https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Initial_Release.aspx).
-
-**Failure to meet any of the requirements will result in automatic disqualification.** Please reach out to any of the organisers or judges if you require any clarification.
-
-- Sitecore 9.1 (Initial Release) Module (Module install package)
-   - An installation Sitecore Package (`.zip` or `.update`)
-
-- Module code in a public Git source repository. We will be judging (amongst other things):
-  - Cleanliness of code
-  - Commenting where necessary
-  - Code Structure
-  - Standard coding standards & naming conventions
-
-- Precise and Clear Installation Instructions document (1 – 2 pages)
-- Module usage documentation on [Readme.md](documentation) file on the Git Repository (2 – 5 pages)
-  - Module Purpose
-  - Module Sitecore Hackathon Category
-  - How does the end user use the Module?
-  - Screenshots, etc.
-
-- Create a 2 – 10 minutes video explaining the module’s functionality (A link to youtube video)
-
-  - What problem was solved
-  - How did you solve it
-  - What is the end result
